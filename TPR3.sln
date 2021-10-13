@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPR_1", "CIAKOD_RGR_2\TPR_1.csproj", "{50C5EAC5-8180-415F-A0DA-BEF3CCF845CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPR_3", "CIAKOD_RGR_2\TPR_3.csproj", "{50C5EAC5-8180-415F-A0DA-BEF3CCF845CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

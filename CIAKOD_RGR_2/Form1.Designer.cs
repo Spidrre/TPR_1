@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbExample3 = new System.Windows.Forms.CheckBox();
             this.labelError = new System.Windows.Forms.Label();
             this.cbExample2 = new System.Windows.Forms.CheckBox();
             this.btnOk = new System.Windows.Forms.Button();
@@ -46,7 +47,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewDoxod = new System.Windows.Forms.DataGridView();
-            this.cbExample3 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPerexod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDoxod)).BeginInit();
@@ -74,6 +74,18 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Menu";
+            // 
+            // cbExample3
+            // 
+            this.cbExample3.AutoSize = true;
+            this.cbExample3.Checked = true;
+            this.cbExample3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbExample3.Location = new System.Drawing.Point(10, 279);
+            this.cbExample3.Name = "cbExample3";
+            this.cbExample3.Size = new System.Drawing.Size(116, 17);
+            this.cbExample3.TabIndex = 32;
+            this.cbExample3.Text = "Пример на 3 сост";
+            this.cbExample3.UseVisualStyleBackColor = true;
             // 
             // labelError
             // 
@@ -135,18 +147,18 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 13);
+            this.label2.Size = new System.Drawing.Size(130, 13);
             this.label2.TabIndex = 23;
-            this.label2.Text = "Количество стратегий";
+            this.label2.Text = "Количество Стратегий 2";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 13);
+            this.label1.Size = new System.Drawing.Size(130, 13);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Количество состояний";
+            this.label1.Text = "Количество Стратегий 1";
             // 
             // tbStrat
             // 
@@ -225,18 +237,6 @@
             this.dataGridViewDoxod.Size = new System.Drawing.Size(566, 140);
             this.dataGridViewDoxod.TabIndex = 25;
             this.dataGridViewDoxod.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridViewDoxod_EditingControlShowing);
-            // 
-            // cbExample3
-            // 
-            this.cbExample3.AutoSize = true;
-            this.cbExample3.Checked = true;
-            this.cbExample3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbExample3.Location = new System.Drawing.Point(10, 279);
-            this.cbExample3.Name = "cbExample3";
-            this.cbExample3.Size = new System.Drawing.Size(116, 17);
-            this.cbExample3.TabIndex = 32;
-            this.cbExample3.Text = "Пример на 3 сост";
-            this.cbExample3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
